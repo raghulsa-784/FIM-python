@@ -47,8 +47,8 @@ def monitor_changes(directory, hashfile):
                         f.write(f"{filepath}|{file_hash}\n")
 
 if __name__ == "__main__":
-    file= input("Enter the directory to be hashed:")
-    directory = file  # Directory to monitor
+    directory = input("Enter the directory to be hashed:")  # Directory to monitor
+    
     hashfile = "./hashfile.txt"  # Path to hash file
 
     print("Select an option:")
