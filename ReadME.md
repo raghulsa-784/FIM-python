@@ -29,15 +29,18 @@ This utility provides functionalities to hash files in a directory and monitor c
    ```bash
    python fim.py <directory> --mode baseline [--hashfile <hashfile>] [--algorithm <algorithm>]
 
-2. **Monitor Mode**: Monitors changes in the directory.
+2. **Monitor Mode**: Monitors changes in the directory
+    ```bash
     python fim.py <directory> --mode monitor [--hashfile <hashfile>] [--algorithm <algorithm>] [--interval <interval>]
 
 ## Examples
 
 1. **Create Baseline hashfile**
+
     python fim.py /path/to/directory --mode baseline
 
 2. **Monitor changes in a directory**
+
     python fim.py /path/to/directory --mode monitor
 
 ## Error Handling
